@@ -33,8 +33,7 @@ header{
     text-transform: uppercase;
     letter-spacing: .3px;
     padding: 28px 0;
-    border-bottom:5px solid  rgb(162, 99, 221);
-
+    border-bottom: 5px solid #ffffff;
 
 }
 .nav-bar a:hover{
@@ -91,4 +90,27 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center ;
+}
+.banner img{
+    width:100% ;
+}
+.banner{
+    margin: 40px 0;
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_item{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+}
+.sale-item{
+    width: 250px;
 }
