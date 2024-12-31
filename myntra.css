@@ -106,11 +106,23 @@ header{
     max-height: 5em;
     font-weight: 700;
 }
-.category_item{
+.categaoty_item{
+    width: 100%  ;
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap:wrap ;
     justify-content: space-evenly;
+
 }
 .sale-item{
-    width: 250px;
+    width: 260px;
+}
+.footer-container{
+    padding: 30px 0 40px 0;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-column{
+    display: flex;
+    flex-direction:column;
 }
